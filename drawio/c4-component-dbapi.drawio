@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2020-06-18T05:52:21.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="eH6l_3F-YQIcf-fAI1x5" version="13.1.1" type="github">
+  <diagram id="3PWGdKsip143NIovn4PM" name="Page-1">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-1" value="" style="whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="580" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#A8A8A8;strokeWidth=2;dashed=1;" edge="1" parent="1" source="QfPvUI4TpvJAcyxGo5uB-2" target="QfPvUI4TpvJAcyxGo5uB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-2" value="&lt;b&gt;DB API&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;API para proteger o banco principal&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-3" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;Postgres]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Banco de dados principal&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxGeometry x="320" y="840" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#A8A8A8;strokeWidth=2;" edge="1" parent="1" source="QfPvUI4TpvJAcyxGo5uB-4" target="QfPvUI4TpvJAcyxGo5uB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-4" value="&lt;span&gt;&lt;b&gt;DBRest&lt;br&gt;&lt;/b&gt;Container:&amp;nbsp;&lt;/span&gt;&lt;span&gt;kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Contem os endpoints dos subdomínios&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#A8A8A8;strokeWidth=2;" edge="1" parent="1" source="QfPvUI4TpvJAcyxGo5uB-6" target="QfPvUI4TpvJAcyxGo5uB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#A8A8A8;strokeWidth=2;" edge="1" parent="1" source="QfPvUI4TpvJAcyxGo5uB-6" target="QfPvUI4TpvJAcyxGo5uB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-6" value="&lt;span&gt;&lt;b&gt;DB Business&lt;br&gt;&lt;/b&gt;Container:&amp;nbsp;&lt;/span&gt;&lt;span&gt;kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Regras de negócio para trabalhar com os dados&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#A8A8A8;strokeWidth=2;" edge="1" parent="1" source="QfPvUI4TpvJAcyxGo5uB-7" target="QfPvUI4TpvJAcyxGo5uB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-7" value="&lt;span&gt;&lt;b&gt;Exame Service&lt;br&gt;&lt;/b&gt;Container:&amp;nbsp;&lt;/span&gt;&lt;span&gt;kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Conjunto de funções específicas para o subdomínio Exame&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="182.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;strokeColor=#A8A8A8;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QfPvUI4TpvJAcyxGo5uB-8" target="QfPvUI4TpvJAcyxGo5uB-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-8" value="&lt;span&gt;&lt;b&gt;Consulta Service&lt;br&gt;&lt;/b&gt;Container:&amp;nbsp;&lt;/span&gt;&lt;span&gt;kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Conjunto de funções específicas para o subdomínio&amp;nbsp; Consulta&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxGeometry x="430" y="600" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#A8A8A8;strokeWidth=2;" edge="1" parent="1" source="QfPvUI4TpvJAcyxGo5uB-10" target="QfPvUI4TpvJAcyxGo5uB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfPvUI4TpvJAcyxGo5uB-10" value="&lt;span&gt;&lt;b&gt;DB Repository&lt;br&gt;&lt;/b&gt;Container:&amp;nbsp;&lt;/span&gt;&lt;span&gt;kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Integração com a base de dados&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxGeometry x="315" y="720" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

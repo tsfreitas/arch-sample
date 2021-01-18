@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" modified="2020-06-18T04:42:56.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="nw8O_xVbvgorJWE6rTSu" version="13.1.1" type="github">
+  <diagram id="ypBZZczya_CooinwO3vP" name="Page-1">
+    <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VrBb4_NDlaD8X4_quast-3" value="" style="whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="200" width="850" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-1" value="&lt;b&gt;Usuário&lt;/b&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Cliente utilizando &lt;br&gt;o site&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#DAE8FC;strokeColor=#6C8EBF;shape=mxgraph.c4.person;align=center;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];" parent="1" vertex="1">
+          <mxGeometry x="310" y="-10" width="110.00000000000001" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-2" value="&lt;span&gt;&lt;b&gt;Web&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;React&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Provê a interação do cliente com sua conta, consultas e exames&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="285" y="210" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-4" value="&lt;span&gt;&lt;b&gt;BFF&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;Kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Porta de entrada para os serviços, possui informações filtradas e agregadas por página do front&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="160" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Faz chamadas a API&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[json/https]&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-2" target="VrBb4_NDlaD8X4_quast-4" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="30" y="350" as="sourcePoint" />
+            <mxPoint x="230" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-7" value="&lt;b&gt;Consulta service&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;Kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;API para consultas&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="370" y="400" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Agenda consultas&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[json/https]&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-4" target="VrBb4_NDlaD8X4_quast-7" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="250" y="590" as="sourcePoint" />
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-10" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;Redis]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Base especializada em consultas&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="380" y="540" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Verifica horário livre&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-7" target="VrBb4_NDlaD8X4_quast-10" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="240" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-13" value="&lt;b&gt;DB API&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;API para proteger o banco principal&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="670" y="340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-14" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Registra utilização&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[json/https]&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-7" target="VrBb4_NDlaD8X4_quast-13" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="670" y="540" as="sourcePoint" />
+            <mxPoint x="870" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-16" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Marca consulta para mostrar resultado de exame&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-1" target="VrBb4_NDlaD8X4_quast-2" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="570" y="70" as="sourcePoint" />
+            <mxPoint x="770" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-17" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;Postgres]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Banco de dados principal&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="675" y="510" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-18" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Insere registro&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[SQL]&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-13" target="VrBb4_NDlaD8X4_quast-17" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="930" y="300" as="sourcePoint" />
+            <mxPoint x="1130" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-19" value="&lt;b&gt;Exame service&lt;/b&gt;&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;Kotlin&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;API para exames&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="80" y="610" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-20" value="&lt;span&gt;Storage&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;S3]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Storage de imagens&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;strokeColor=#666666;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="60" y="840" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-21" value="&lt;span&gt;Database&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;MongoDB]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Base especializa em exames&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="250" y="725" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-24" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Insere exame&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-19" target="VrBb4_NDlaD8X4_quast-21" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="120" y="860" as="sourcePoint" />
+            <mxPoint x="320" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-25" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Upload da imagem&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-19" target="VrBb4_NDlaD8X4_quast-20" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="120" y="860" as="sourcePoint" />
+            <mxPoint x="320" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-27" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Insere exame&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[json/https]&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-4" target="VrBb4_NDlaD8X4_quast-19" edge="1">
+          <mxGeometry width="200" relative="1" as="geometry">
+            <mxPoint x="340" y="880" as="sourcePoint" />
+            <mxPoint x="540" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBb4_NDlaD8X4_quast-28" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;div&gt;&lt;b&gt;Registra exame&lt;/b&gt;&lt;/div&gt;&lt;div&gt;[json/https]&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.75;jettySize=auto;orthogonalLoop=1;strokeColor=#A8A8A8;strokeWidth=2;fontColor=#000000;jumpStyle=none;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VrBb4_NDlaD8X4_quast-19" target="VrBb4_NDlaD8X4_quast-13" edge="1">
+          <mxGeometry x="-0.064" width="200" relative="1" as="geometry">
+            <mxPoint x="420" y="940" as="sourcePoint" />
+            <mxPoint x="620" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="645" />
+              <mxPoint x="600" y="450" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
